@@ -4,7 +4,7 @@ int main(){
 
     // cout<<"Namaste Bharat"<<'\n';
 
-    /* // datatypes
+    /* // datatypes 
         // int
         int a = 5;
         cout<<"value of a is " << a << endl;
