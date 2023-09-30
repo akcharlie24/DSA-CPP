@@ -1,0 +1,1 @@
+//replace with cout << j in inner loop in pattern 5 
