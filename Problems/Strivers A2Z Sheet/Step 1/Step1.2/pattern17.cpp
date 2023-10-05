@@ -22,7 +22,6 @@ void pattern17(int n){
         
         cout<<endl;
     }
-    
 }
 
 int main() {
