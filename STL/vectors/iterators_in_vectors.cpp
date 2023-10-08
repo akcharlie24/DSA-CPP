@@ -12,8 +12,8 @@ int main() {
     auto it2 = v.end(); // this will point in the end of the vector i.e. after the last element of the vector
     cout << *it2<<endl;     // this will give some garbage value as it is pointing after the last element of the vector 
 
-    auto it4 = v.rend(); // this will point to the element before the first element of the vector
-    auto it3 = v.rbegin(); // this will point to the last element of the vector
+    auto it4 = v.rend(); // reverse end -- this will point to the element before the first element of the vector
+    auto it3 = v.rbegin(); // reverse begin -- this will point to the last element of the vector
 
     auto lastElem = v.back(); //this will give the last element of the vector (not the iterator)
     cout<<lastElem<<endl; // we did not use * because it is not an iterator it is just a variable which stores the last element of the vector
