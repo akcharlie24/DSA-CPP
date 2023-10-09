@@ -13,6 +13,13 @@ void swapPointer(int* a, int* b){
     *b=temp;
 }
 
+void swapReferenceVar(int &a, int &b){ // This is known as call by reference (as reference de dia)
+    // a and b are reference variables that are aliases for x and y // matlab a and b are just nicknames for x and y
+    int temp = a;
+    a=b;
+    b=temp;
+}
+
 int main () {
     int x=4,y=5;                
 
