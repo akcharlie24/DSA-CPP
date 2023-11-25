@@ -11,13 +11,13 @@ void pattern11(int n){
         for (int j = 0; j <= i; j++)
         {
             cout<<printer<<" ";
-            printer = 1 - printer ;
+            printer = 1 - printer ;//printer switching mechanism code
         }cout<<endl;
         
     }
 }
 
 int main() {
-    pattern11(5);
+    pattern11(9);
     return 0;
 }
