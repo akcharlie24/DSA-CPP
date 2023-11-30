@@ -40,7 +40,7 @@ int main() {
     for (auto iter : v) // this is called for each loop
     {
         cout<<iter<<" ";
-    }
+    }cout<<endl;
     
     return 0;
 }
