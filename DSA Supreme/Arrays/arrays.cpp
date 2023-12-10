@@ -3,6 +3,9 @@ using namespace std;
 
 int main() {
     //initialization in an array    
+    int arr0[] = {2,34,5,66,324,443};
+    cout<<arr0[5]<<endl;
+
     int arr[10] = {1,2,3,4,5};// remaining elements are initialized to 0
    
     //int arr2[4] = {1,2,3,4,3}; // too many initializers
