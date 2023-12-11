@@ -15,7 +15,7 @@ int main() {
     auto it4 = v.rend(); // reverse end -- this will point to the element before the first element of the vector
     auto it3 = v.rbegin(); // reverse begin -- this will point to the last element of the vector
 
-    auto lastElem = v.back(); //this will give the last element of the vector (not the iterator)
+    auto lastElem = v.back(); //this will give the last element of the vector (**** not the iterator ****)
     cout<<lastElem<<endl; // we did not use * because it is not an iterator it is just a variable which stores the last element of the vector
 
 
@@ -37,7 +37,7 @@ int main() {
     //we can also use auto in place of vector<int>::iterator
 
     // 3rd way to iterate over a vector
-    for (auto iter : v) // this is called for each loop
+    for (auto iter : v) // this is called for each loop //iter doesnt mean iterator it is just a variable name to store the value at that index
     {
         cout<<iter<<" ";
     }cout<<endl;
