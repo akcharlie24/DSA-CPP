@@ -9,9 +9,10 @@ int main() {
     vec.push_back(40);
     vec.push_back(50);
 
-    for(int i=0;i<vec.size();i++) {
-        cout<<vec[i]<<" ";
+    for(auto x : vec) { //for each loop where x is the element of the vector
+        cout<<x<<" ";
     }
+
     cout<<endl;
     cout<<vec.size()<<endl;
     cout<<vec.capacity()<<endl;
