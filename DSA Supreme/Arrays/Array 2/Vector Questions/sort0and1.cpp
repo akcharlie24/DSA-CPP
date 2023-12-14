@@ -1,7 +1,1 @@
-#include<bits/stdc++.h>
-using namespace std;
-
-int main() {
-    
-    return 0;
-}
+//revisit the 44. Array 2 in DSA Supreme to see the code for this.
