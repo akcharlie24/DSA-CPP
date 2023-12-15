@@ -40,7 +40,6 @@ int main()
 
 
     // Same can be done for the INPUT of the 2d array there can be both row-wise and column-wise input
-
-    
+    // dhyaan rkhna agar row-wise / column-wise input le liya hai to normal travesal hi karna.
     return 0;
 }
