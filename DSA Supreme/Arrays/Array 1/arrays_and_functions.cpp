@@ -4,8 +4,8 @@ using namespace std;
 void printarr(int arr[5]){ // a good practice is to pass the size of array along with the array given in the code below
     for (int i = 0; i < 5; i++)
     {
-        cout<<arr[i]<<endl;
-    }
+        cout<<arr[i]<<" ";
+    }cout<<endl;
     cout<<"--------"<<endl;
 }
 
