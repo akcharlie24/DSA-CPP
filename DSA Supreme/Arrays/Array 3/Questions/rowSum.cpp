@@ -16,7 +16,7 @@ int main()
         {
             sum += arr[i][j];
         }
-            cout << "Sum of row " << i << " is " << sum <<endl;
+            cout << "Sum of row " << i + 1 << " is " << sum <<endl;
     }
     // can also do column wise sum also
     return 0;

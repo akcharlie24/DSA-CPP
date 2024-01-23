@@ -1,0 +1,3 @@
+//if you can solve the problem for a shorter case try to understand the problem and replicate it for the larger use case ..
+--> example pair sum and triplet sum .
+--> HUMAN MIND IS CHALAK == TRY TO FORM PATTERNS....

@@ -10,7 +10,7 @@ int main()
     //  pair sum me do loop the yahan bas ek aur loop laga denge
     //  jahan pe i and j ko fix karke karenge aur k ko search karenge
     //  agar k mil gaya toh print karenge
-    //  k ko j+1 se start karenge
+    //  k ko j+1 se start karenge //human mind is chalak --> try to form patterns....
 
     for (int i = 0; i < arr.size(); i++)
     {
@@ -20,7 +20,7 @@ int main()
             int element2 = arr[j];
             for (int k = j + 1; k < arr.size(); k++)
             {
-                int element3 = arr[k];
+                int element3 = arr[k]; //redundant code we can directly use arr[k] but ok.
                 if (element1 + element2 + element3 == sum)
                 {
                     cout << "Triplet Found" << endl;

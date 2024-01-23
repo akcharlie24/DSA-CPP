@@ -13,17 +13,19 @@ void reverse(int arr[], int size)
     }
 }
 
+void printArr (int arr[], int size){
+    for (int i = 0; i < size; i++)
+    {
+        cout << arr[i] << " ";
+    }
+}
+
 int main()
 {
     int arr[] = {2, 34, 55, 24, 145, 98, 20};
     int size = 7;
 
     reverse(arr, size);
-
-    for (int i = 0; i < size; i++)
-    {
-        cout << arr[i] << " ";
-    }
 
     return 0;
 }

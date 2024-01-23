@@ -16,7 +16,7 @@ int main()
         }
     }
 
-    // print
+    // printing the transpose : 
     for (int i = 0; i < 3; i++)
     {
         for (int j = 0; j < 3; j++)
