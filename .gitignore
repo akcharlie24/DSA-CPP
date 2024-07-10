@@ -6,9 +6,6 @@
 # Ignore specific executables (Windows)
 *.exe
 
-# Ignore the executable generated for arrays.cpp
-arrays
-
 # Ignore any other common C++ build artifacts
 *.o
 *.obj
