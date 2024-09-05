@@ -27,7 +27,7 @@ int main()
     // now look at the hard way
 
     int row = 3, col = 5;
-    vector<vector<int>> arr2(row, vector<int>(col, 4)); // this is the syntax for initializing a 2d vector saari values 0 se initialize ho jayengi
+    vector<vector<int>> arr2(row, vector<int>(col, 4)); // this is the syntax for initializing a 2d vector saari values 4 se initialize ho jayengi
 
     for (int i = 0; i < row; i++)
     {
@@ -35,11 +35,11 @@ int main()
             cout << arr2[i][j] << " ";
         cout << endl;
     }
-    cout<<endl;
+    cout << endl;
 
-    arr2[1][2] = 10; //we can change the value of any element like this
-    cout << arr2[1][2] << endl 
-          << endl;
+    arr2[1][2] = 10; // we can change the value of any element like this
+    cout << arr2[1][2] << endl
+         << endl;
 
     for (int i = 0; i < row; i++)
     {
