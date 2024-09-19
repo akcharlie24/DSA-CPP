@@ -9,7 +9,7 @@ int removeDuplicates(int arr[], int n) {
   int k = set.size();
   int j = 0;
   for (int x : set) {
-    arr[j++] = x;
+    arr[j++] = x; 
   }
   return k;
 }
